@@ -1,7 +1,31 @@
 body {
-    background-color: #F3F5FC;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
 }
 
 textarea {
     background-color: #F3F5FC;
+}
+
+#text_area_result {
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    resize: none;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+
+
+
+
+
+
+
+
 }
