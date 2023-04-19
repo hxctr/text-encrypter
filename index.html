@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="js/main.js"></script>
     <title>Text encrypter</title>
 </head>
 
@@ -14,9 +15,9 @@
 
     <button>Encrypt</button>
     <button>decrypt</button>
-
-    <textarea name="text_area_result" id="text_area_result" rows="10" cols="50"></textarea>
-
+    <div id="hide_boy_img" onclick="txt_area_pressed();">
+        <textarea name="text_area_result" id="text_area_result" rows="10" cols="50"></textarea>
+    </div>
     <img src="images/boy_img.png" alt="" id="boy_img">
     <img src="images/no_message_found_img.png" alt="" id="no_message_found_img">
 </body>
