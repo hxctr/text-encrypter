@@ -11,7 +11,7 @@ textarea {
 
 #text_area_result {
     position: absolute;
-    width: 400px;
+    width: 350px;
     height: 944px;
     left: 1000px;
     top: 40px;
@@ -19,6 +19,19 @@ textarea {
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
+
+    font-family: "Verdana";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+   padding-left: 32px;
+   padding-top: 32px;
+   padding-right: 32px;
+   padding-bottom: 131px;
+    color: gray;
 }
 
 #boy_img {
@@ -28,6 +41,7 @@ textarea {
     left: 1032px;
     top: 283px;
 }
+
 #no_message_found_img {
     display: flex;
     flex-direction: column;
