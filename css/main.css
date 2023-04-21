@@ -5,9 +5,9 @@ body {
     background: #F3F5FC;
 }
 
-textarea {
+/* textarea {
     background-color: #F3F5FC;
-}
+} */
 
 #text_area_result {
     position: absolute;
@@ -27,10 +27,10 @@ textarea {
     letter-spacing: 0em;
     text-align: left;
 
-   padding-left: 32px;
-   padding-top: 32px;
-   padding-right: 32px;
-   padding-bottom: 131px;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 131px;
     color: gray;
 }
 
@@ -55,3 +55,32 @@ textarea {
     left: 1032px;
     top: 619px;
 }
+
+#input_for_enter_text {
+    resize: none;
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
+
+color: #0A3871;
+border: none;
+outline: none;
+overflow: auto;
+background-color: #F3F5FC;
+    
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #0A3871ed;
+    opacity: 1; /* Firefox */
+  }
