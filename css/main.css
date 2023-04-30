@@ -98,7 +98,7 @@ body {
 
     /* Auto layout */
 
-    /* display: flex; */
+    /* display: inline-block; */
     flex-direction: row;
     align-items: flex-start;
     padding: 24px;
@@ -118,11 +118,53 @@ body {
     order: 0;
     flex-grow: 0;
 
-    margin-top: 885px;
+    /* margin-top: 885px;
     margin-left: 240px;
-    margin-right: 872px;
+    margin-right: 872px; */
 }
 
-#btn_decrypt{
+#btn_decrypt {
+    /* Button */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    /* Light gray */
+
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    /* margin-top: 885px;
+    margin-left: 562px;
+    margin-right: 520px; */
+
+
+}
+
+#btn_main {
+    position: absolute;
+    /* bottom: 0; */
     
+    top: 885px;
+    left: 240px;
 }
