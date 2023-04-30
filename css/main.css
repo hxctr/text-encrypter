@@ -164,7 +164,22 @@ body {
 #btn_main {
     position: absolute;
     /* bottom: 0; */
-    
+
     top: 885px;
     left: 240px;
+}
+
+#img-logo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 90px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
 }
