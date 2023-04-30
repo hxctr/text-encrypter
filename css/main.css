@@ -71,16 +71,58 @@ body {
     line-height: 150%;
     /* or 48px */
 
-color: #0A3871;
-border: none;
-outline: none;
-overflow: auto;
-background-color: #F3F5FC;
-    
+    color: #0A3871;
+    border: none;
+    outline: none;
+    overflow: auto;
+    background-color: #F3F5FC;
+
 }
 
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #0A3871ed;
-    opacity: 1; /* Firefox */
-  }
+    opacity: 1;
+    /* Firefox */
+}
+
+#btn-encrypt {
+    /* Button */
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Auto layout */
+
+    /* display: flex; */
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+    color: #FFFFFF;
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    margin-top: 885px;
+    margin-left: 240px;
+    margin-right: 872px;
+}
+
+#btn_decrypt{
+    
+}
