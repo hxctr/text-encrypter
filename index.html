@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <script src="js/main.js"></script>
-    <title>Text encrypter</title>
+    <title>Encriptador</title>
 </head>
 
 <body>
@@ -15,9 +15,9 @@
     <img src="images/Logo.png" alt="" id="img-logo">
 
     <div id="btn_main">
-        <section >
-            <button id="btn-encrypt" onclick="btn_blue_pressed();">Encrypt</button>
-            <button id="btn_decrypt" onclick="btn_white_pressed();">decrypt</button>
+        <section>
+            <button id="btn-encrypt" onclick="btn_blue_pressed();">Encriptar</button>
+            <button id="btn_decrypt" onclick="btn_white_pressed();">Desencriptar</button>
         </section>
     </div>
 
@@ -25,10 +25,25 @@
         <textarea name="text_area_result" id="text_area_result" rows="10" cols="50"></textarea>
     </div>
     <img src="images/boy_img.png" alt="" id="boy_img">
-    <img src="images/no_message_found_img.png" alt="" id="no_message_found_img">
+    <img src="images/no_message_found_img_white.png" alt="" id="no_message_found_img">
 
     <textarea id="input_for_enter_text" autofocus rows="9" autocorect="on"
         placeholder="Ingrese el texto aquí"></textarea>
+
+
+    <!-- <div id="warning">
+        <section>
+            <img src="images/alert.png" alt="">
+            <p>Solo letras minúsculas y sin acentos</p>
+        </section>
+    </div> -->
+
+    <div id="icontest">
+        <img src="images/warning.png" alt="">
+        <p><b>Solo letras minúsculas y sin acentos</b></p>
+    </div>
+
+
 </body>
 
 </html>
