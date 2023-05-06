@@ -104,7 +104,7 @@ body {
 
 
 ::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
+
     color: #0A3871ed;
     opacity: 1;
     /* Firefox */
@@ -243,4 +243,68 @@ body {
     margin-left: 250px;
     display: flex;
     align-items: center;
+}
+
+/*adding queries to make responsive*/
+@media (max-width: 960px) {
+    body {
+        background: #181a1b;
+    }
+
+    #input_for_enter_text {
+        background: #181a1b;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+
+    #icontest {
+        /* position: absolute;
+        display: flex; */
+        /* align-items: center;
+        margin-top: 80px; */
+        margin-top: 400px;
+        margin-left: 232px;
+
+    }
+
+    #text_area_result {
+        position: absolute;
+        left: 210px;
+        top: 750px;
+        resize: none; 
+    }
+
+    #btn_main{
+        position: relative;
+        margin-left: 50px;
+        left: 1px;
+        top: 560px;
+    }
+
+    #btn_main button {
+        margin-right: 10px;
+    }
+
+    #boy_img {
+        position: absolute;
+        width: 236px;
+        height: 204px;
+        left: 250px;
+        top: 950px;
+    }
+
+    #no_message_found_img {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+    
+        position: absolute;
+        width: 236px;
+        height: 100px;
+        left: 250px;
+        top: 1200px;
+    }
 }
