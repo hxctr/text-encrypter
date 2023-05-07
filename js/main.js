@@ -16,6 +16,8 @@ class Encrypt {
 
         document.getElementById("boy_img").style.display = "none";
         document.getElementById("no_message_found_img").style.display = "none";
+        document.getElementById('btn-copiar').style.display = "inline"
+
 
         text_to_encrypt = text_to_encrypt.split('');
 
@@ -25,7 +27,7 @@ class Encrypt {
             }else if (text_to_encrypt[i] == 'e') {
                 text_to_encrypt[i] = 'enter'
             }else if (text_to_encrypt[i] == 'i') {
-                text_to_encrypt[i] == 'imes';
+                text_to_encrypt[i] = 'imes';
             }else if (text_to_encrypt[i] == 'o') {
                 text_to_encrypt[i] = 'ober'
             }else if (text_to_encrypt[i] == 'u') {
@@ -63,6 +65,7 @@ class Decrypt {
 
         document.getElementById("boy_img").style.display = "none";
         document.getElementById("no_message_found_img").style.display = "none";
+        document.getElementById('btn-copiar').style.display = "inline"
 
         text_to_decrypt = text_to_decrypt.replaceAll('ai', 'a');
         text_to_decrypt = text_to_decrypt.replaceAll('enter', 'e');

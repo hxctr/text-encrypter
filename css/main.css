@@ -9,8 +9,38 @@ body {
     background-color: #F3F5FC;
 } */
 
-#text_area_result {
+#hide_boy_img {
+    border: 1px solid white;
+    padding: 20px 20px 50px 20px;
+
+    top: 100px;
     position: absolute;
+    width: 250px;
+    height: 550px;
+    left: 1170px;
+    top: 70px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+
+#text_area_result {
+
+    outline: none;
+    resize: none;
+    width: 200px;
+    height: 490px;
+
+    background: #181a1b;
+
+    font-family: "Verdana";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: gray;
+    /* position: absolute;
     width: 250px;
     height: 500px;
     left: 1160px;
@@ -31,7 +61,11 @@ body {
     padding-top: 32px;
     padding-right: 32px;
     padding-bottom: 131px;
-    color: gray;
+    color: gray; */
+
+    border: none;
+    width: 100%;
+    padding: 0;
 }
 
 #boy_img {
@@ -245,6 +279,30 @@ body {
     align-items: center;
 }
 
+#btn-copiar {
+    display: none;
+    position: absolute;
+    width: 250px;
+    height: 67px;
+    left: 1190px;
+    top: 600px;
+
+    border: 2px solid #0A3871;
+border-radius: 24px;
+
+background: #6b6b6b;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: white;
+
+}
+
 /*adding queries to make responsive*/
 @media (max-width: 960px) {
     body {
@@ -347,7 +405,7 @@ body {
 
     }
 
-    #btn_main{
+    #btn_main {
         margin-left: 10px;
         margin-top: 350px;
         position: absolute;
@@ -363,8 +421,8 @@ body {
 
     }
 
-    
-    
+
+
 
     #boy_img {
         position: absolute;
