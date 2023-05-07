@@ -151,7 +151,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-border-color: #2a2d2f;
+    border-color: #2a2d2f;
 
     /* Auto layout */
 
@@ -209,7 +209,7 @@ border-color: #2a2d2f;
     /* border: 1px solid #0A3871; */
     border-radius: 24px;
     color: white;
-border-color: #0A3871;
+    border-color: #0A3871;
     /* Inside auto layout */
 
     flex: none;
@@ -285,7 +285,7 @@ button:active {
 }
 
 #btn-copiar {
-    
+
     display: none;
     position: absolute;
     width: 250px;
@@ -376,7 +376,7 @@ button:active {
 @media (max-width: 343px) {
 
     body {
-        background: blue;
+        background: #181a1b;
     }
 
     #input_for_enter_text {
@@ -392,14 +392,38 @@ button:active {
         font-size: 28px;
     }
 
-    #text_area_result {
-        /* position: absolute; */
+    #hide_boy_img {
+        width: 270px;
+        height: 624px;
         left: 16px;
+        top: 1135px;
+        /* padding: 5px 5px 5px 5px; */
+        height: 300px;
+    }
+
+    #text_area_result {
+        display: inline;
+        top: 10px;
+        left: 10px;
+        width: 290px;
+
+        height: 260px;
+
+    }
+
+    #btn-copiar {
+        left: 50px;
+        top: 1425px;
+    }
+
+    /* #text_area_result {
+        /* position: absolute; */
+    /* left: 16px;
         top: 1100px;
         resize: none;
         height: 300px;
         padding-bottom: px;
-    }
+    } */
 
     #icontest {
         /* position: absolute;
