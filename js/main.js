@@ -24,22 +24,22 @@ class Encrypt {
         for (let i = 0; i < text_to_encrypt.length; i++) {
             if (text_to_encrypt[i] == 'a') {
                 text_to_encrypt[i] = 'ai'
-            }else if (text_to_encrypt[i] == 'e') {
+            } else if (text_to_encrypt[i] == 'e') {
                 text_to_encrypt[i] = 'enter'
-            }else if (text_to_encrypt[i] == 'i') {
+            } else if (text_to_encrypt[i] == 'i') {
                 text_to_encrypt[i] = 'imes';
-            }else if (text_to_encrypt[i] == 'o') {
+            } else if (text_to_encrypt[i] == 'o') {
                 text_to_encrypt[i] = 'ober'
-            }else if (text_to_encrypt[i] == 'u') {
+            } else if (text_to_encrypt[i] == 'u') {
                 text_to_encrypt[i] = 'ufat';
             }
-            
+
         }
 
         let newText = '';
         for (let j = 0; j < text_to_encrypt.length; j++) {
             newText += text_to_encrypt[j];
-            
+
         }
 
         this.encrypted_text = document.getElementById('text_area_result');
@@ -91,3 +91,17 @@ function btn_white_pressed() {
 }
 
 
+function copyText() {
+    let text_area_result = document.getElementById('text_area_result');
+    text_area_result.select();
+    document.execCommand('copy');
+
+
+
+    const copyMessage = document.getElementById('copy-message');
+    copyMessage.style.display = 'inline';
+
+    setTimeout(function () {
+        copyMessage.style.display = 'none';
+    }, 2000);
+}

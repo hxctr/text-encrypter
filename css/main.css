@@ -279,6 +279,11 @@ body {
     align-items: center;
 }
 
+button:active {
+    background: #4e4e4e;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 #btn-copiar {
     display: none;
     position: absolute;
@@ -288,18 +293,18 @@ body {
     top: 600px;
 
     border: 2px solid #0A3871;
-border-radius: 24px;
+    border-radius: 24px;
 
-background: #6b6b6b;
+    background: #6b6b6b;
 
-font-family: 'Verdana';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
 
-color: white;
+    color: white;
 
 }
 
