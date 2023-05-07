@@ -1,18 +1,11 @@
 body {
     position: relative;
-    /* width: 1440px;
-    height: 1024px; */
     background: #181a1b;
 }
-
-/* textarea {
-    background-color: #F3F5FC;
-} */
 
 #hide_boy_img {
     border: 1px solid white;
     padding: 20px 20px 50px 20px;
-
     top: 100px;
     position: absolute;
     width: 250px;
@@ -23,16 +16,12 @@ body {
     border-radius: 32px;
 }
 
-
 #text_area_result {
-
     outline: none;
     resize: none;
     width: 200px;
     height: 490px;
-
     background: #181a1b;
-
     font-family: "Verdana";
     font-size: 24px;
     font-weight: 400;
@@ -40,29 +29,6 @@ body {
     letter-spacing: 0em;
     text-align: left;
     color: gray;
-    /* position: absolute;
-    width: 250px;
-    height: 500px;
-    left: 1160px;
-    top: 40px;
-    resize: none;
-    background: #181a1b;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;
-
-    font-family: "Verdana";
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: left;
-
-    padding-left: 32px;
-    padding-top: 32px;
-    padding-right: 32px;
-    padding-bottom: 131px;
-    color: gray; */
-
     border: none;
     width: 100%;
     padding: 0;
@@ -82,7 +48,6 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 16px;
-
     position: absolute;
     width: 236px;
     height: 100px;
@@ -97,148 +62,85 @@ body {
     height: 288px;
     left: 240px;
     top: 168px;
-
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    /* or 48px */
-
     color: #0A3871;
     border: none;
     outline: none;
     overflow: auto;
     background-color: #181a1b;
-
-    /* hide scroll*/
-
-    /* overflow: hidden;
-    resize: none;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    ::-webkit-scrollbar {
-        display: none;
-      } */
-
-
-
-
-
 }
 
 #text_area_result::-webkit-scrollbar {
     display: none;
 }
 
-
 #input_for_enter_text::-webkit-scrollbar {
     display: none;
 }
-
 
 ::placeholder {
 
     color: #0A3871ed;
     opacity: 1;
-    /* Firefox */
 }
 
 #btn-encrypt {
-    /* Button */
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     border-color: #2a2d2f;
-
-    /* Auto layout */
-
     display: inline;
-
     align-items: center;
     padding: 24px;
     gap: 8px;
-
     width: 328px;
     height: 67px;
     color: #FFFFFF;
-    /* Dark blue/dark-blue-300 */
-
     background: #0A3871;
     border-radius: 24px;
-
-    /* Inside auto layout */
-
-
-
-    /* margin-top: 885px;
-    margin-left: 240px;
-    margin-right: 872px; */
 }
 
 #btn_decrypt {
-    /* Button */
-
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-
-
     box-sizing: border-box;
-
-    /* Auto layout */
-
     display: inline-block;
     flex-direction: row;
     align-items: flex-start;
     padding: 24px;
     gap: 8px;
-
     width: 328px;
     height: 67px;
-
-    /* Light gray */
-
     background: #2a2d2f;
-    /* Dark blue/dark-blue-300 */
-
-    /* border: 1px solid #0A3871; */
     border-radius: 24px;
     color: white;
     border-color: #0A3871;
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
-
-    /* margin-top: 885px;
-    margin-left: 562px;
-    margin-right: 520px; */
-
-
 }
 
 #btn_main {
     position: absolute;
-    /* bottom: 0; */
-
     top: 600px;
     left: 240px;
 }
 
 #img-logo {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
-
     position: absolute;
     width: 90px;
     height: 48px;
@@ -253,10 +155,6 @@ body {
 }
 
 #icontest img {
-    /* position: absolute; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* margin-top: 200px; */
     margin-right: 5px;
     height: 20px;
     width: 20px;
@@ -285,28 +183,22 @@ button:active {
 }
 
 #btn-copiar {
-
     display: none;
     position: absolute;
     width: 250px;
     height: 67px;
     left: 1190px;
     top: 600px;
-
     border-color: #FFFFFF;
     border-radius: 24px;
-
     background: #6b6b6b;
-
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-
     color: white;
-
 }
 
 /*adding queries to make responsive*/
@@ -323,10 +215,6 @@ button:active {
     }
 
     #icontest {
-        /* position: absolute;
-        display: flex; */
-        /* align-items: center;
-        margin-top: 80px; */
         margin-top: 400px;
         margin-left: 232px;
 
@@ -364,7 +252,6 @@ button:active {
         align-items: flex-start;
         padding: 0px;
         gap: 16px;
-
         position: absolute;
         width: 236px;
         height: 100px;
@@ -374,7 +261,6 @@ button:active {
 }
 
 @media (max-width: 343px) {
-
     body {
         background: #181a1b;
     }
@@ -382,9 +268,6 @@ button:active {
     #input_for_enter_text {
         resize: none;
         position: absolute;
-        /* width: 680px;
-        height: 288px; */
-        /* left: 50px; */
         top: 152px;
         left: 16px;
         width: 300px;
@@ -397,7 +280,6 @@ button:active {
         height: 624px;
         left: 16px;
         top: 1135px;
-        /* padding: 5px 5px 5px 5px; */
         height: 300px;
     }
 
@@ -406,9 +288,7 @@ button:active {
         top: 10px;
         left: 10px;
         width: 290px;
-
         height: 260px;
-
     }
 
     #btn-copiar {
@@ -416,23 +296,9 @@ button:active {
         top: 1425px;
     }
 
-    /* #text_area_result {
-        /* position: absolute; */
-    /* left: 16px;
-        top: 1100px;
-        resize: none;
-        height: 300px;
-        padding-bottom: px;
-    } */
-
     #icontest {
-        /* position: absolute;
-        display: flex; */
-        /* align-items: center;
-        margin-top: 80px; */
         margin-top: 840px;
         margin-left: 40px;
-
     }
 
     #btn_main {
@@ -440,19 +306,7 @@ button:active {
         margin-top: 350px;
         position: absolute;
         display: flex;
-
-        /* position: relative;
-        top: 800px;
-        left: 100px;
-
-        display: flex;
-         */
-
-
     }
-
-
-
 
     #boy_img {
         position: absolute;
@@ -468,13 +322,48 @@ button:active {
         align-items: flex-start;
         padding: 0px;
         gap: 16px;
-
         position: absolute;
         width: 182px;
         height: 66px;
         left: 85px;
         top: 1375px;
     }
+}
 
+@media (max-width: 768px) {
+    body {
+        background-color: #181a1b;
+    }
 
+    #hide_boy_img {
+        width: 680px;
+        height: 624px;
+        left: 16px;
+        top: 700px;
+        height: 300px;
+    }
+
+    #text_area_result {
+        display: inline;
+        top: 10px;
+        left: 10px;
+        width: 700px;
+        height: 260px;
+    }
+
+    #btn-copiar {
+        left: 180px;
+        top: 990px;
+        width: 400px;
+    }
+
+    #boy_img {
+        left: 250px;
+        top: 725px;
+    }
+
+    #no_message_found_img {
+        left: 250px;
+        top: 935px;
+    }
 }

@@ -18,7 +18,6 @@ class Encrypt {
         document.getElementById("no_message_found_img").style.display = "none";
         document.getElementById('btn-copiar').style.display = "inline"
 
-
         text_to_encrypt = text_to_encrypt.split('');
 
         for (let i = 0; i < text_to_encrypt.length; i++) {
@@ -33,13 +32,11 @@ class Encrypt {
             } else if (text_to_encrypt[i] == 'u') {
                 text_to_encrypt[i] = 'ufat';
             }
-
         }
 
         let newText = '';
         for (let j = 0; j < text_to_encrypt.length; j++) {
             newText += text_to_encrypt[j];
-
         }
 
         this.encrypted_text = document.getElementById('text_area_result');
