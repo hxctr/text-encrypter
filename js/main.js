@@ -95,13 +95,4 @@ function copyText() {
     let text_area_result = document.getElementById('text_area_result');
     text_area_result.select();
     document.execCommand('copy');
-
-
-
-    const copyMessage = document.getElementById('copy-message');
-    copyMessage.style.display = 'inline';
-
-    setTimeout(function () {
-        copyMessage.style.display = 'none';
-    }, 2000);
 }
